@@ -60,9 +60,11 @@ public static Boolean checkSum (int a, int b) {
 }
 
 public static void checkNumSign (int a) {
-        String answer = "unknown";
-        if (a >=0) answer = "Positive number";
-        else answer = "Negative number";
+            String answer = "unknown";
+        if (a >=0)
+            answer = "Positive number";
+        else
+            answer = "Negative number";
         System.out.println(answer);
 }
 
